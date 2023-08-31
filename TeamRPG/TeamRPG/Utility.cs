@@ -66,6 +66,7 @@ namespace TeamRPG
             string filePath = Path.Combine(userDocumentsFolder, fimeName);
             if(File.Exists(filePath))
             {
+                MainProgram.isCreate = true;
                 string playerJson = File.ReadAllText(filePath);
                 playerJson = Regex.Unescape(playerJson);
                 Character loadedCharacter = JsonSerializer.Deserialize<Character>(playerJson);

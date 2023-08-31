@@ -14,7 +14,7 @@ namespace TeamRPG
         //by doham : Jobs Data Dictionary
         public static Dictionary<string, Character> JobsDic = new Dictionary<string, Character>();
         static string getName = "";
-        static bool isCreate = false; // 죽으면 false;
+        public static bool isCreate = false; // 죽으면 false;
         //---------
 
         public static Monsters monsters;
@@ -69,6 +69,8 @@ namespace TeamRPG
 
         public static void DisplayCreateCharacter()
         {
+            Console.Clear();
+            UI.DisplayGameUI();
             //------박도현 캐릭터 생성 / 직업 선택----------
             //
             //이름을 적어주세요. (아무것도 없을 경우 디폴트)
