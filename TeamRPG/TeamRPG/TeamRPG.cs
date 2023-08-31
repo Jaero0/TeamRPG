@@ -132,10 +132,14 @@ namespace TeamRPG
             if (input == 1)//전사
             {
                 player = new Character(JobsDic["전사"].Name, JobsDic["전사"].Job, JobsDic["전사"].Lv, JobsDic["전사"].Atk, JobsDic["전사"].Def, JobsDic["전사"].Hp, JobsDic["전사"].Gold, JobsDic["전사"].IsDead, JobsDic["전사"].Mp);
+                player.AddSkill(SkillList.alphaStrike);
+                player.AddSkill(SkillList.doubleStrike);
             }
             else if (input == 2)//마법사
             {
                 player = new Character(JobsDic["마법사"].Name, JobsDic["마법사"].Job, JobsDic["마법사"].Lv, JobsDic["마법사"].Atk, JobsDic["마법사"].Def, JobsDic["마법사"].Hp, JobsDic["마법사"].Gold, JobsDic["마법사"].IsDead, JobsDic["마법사"].Mp);
+                player.AddSkill(SkillList.thunderVolt);
+                player.AddSkill(SkillList.heal);
             }
             else
             {
