@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace TeamRPG
 {
-    //------문현우 UI 구현 메서드----------
     public class UI
     {
         public static void DisplayGameUI()

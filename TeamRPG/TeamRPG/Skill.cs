@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace TeamRPG
 {
-    // -----------Song-----------
-    // 스킬 구현
     public class Skill
     {
         public string Name { get; set; }
@@ -21,5 +19,4 @@ namespace TeamRPG
             MpConsume = mpConsume;
         }
     }
-
 }
