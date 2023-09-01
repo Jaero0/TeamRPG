@@ -1,6 +1,8 @@
 # TEAM RPG 
 C# Text TEAM RPG GAME
 
+# Team S.A
+https://www.notion.so/08-745945407a2e47b3a75c22daa2e01e8b
 
 ## 🖥️ Project Introduction
 스파르타 코딩클럽 내일배움캠프 C# 팀 과제 입니다.<br>
